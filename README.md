@@ -9,3 +9,7 @@ for computing BMI:
  
 2. (8 points) Revise the server program in Question-1 using threads to allow multiple 
 clients. 
+
+3. Implement the following generic method for linear search (return the first 
+index value if the key is found in the list, return -1 otherwise). 
+    public static <E extends Comparable<E>> int linearSearch(E[] list, E key) 
